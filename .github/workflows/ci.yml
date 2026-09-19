@@ -2,9 +2,9 @@ name: Infrastructure-CI-CD-Pipeline-Automation
 
 on:
     push:
-        branches: [ main, dev_Vi ]
+        branches: [ main, dev_Vi, fix/* ]
     pull_request:
-        branches: [ main, dev_Vi ]
+        branches: [ main, dev_Vi, fix/* ]
 
 jobs:
     validate-and-build:
